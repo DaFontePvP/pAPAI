@@ -68,50 +68,121 @@ h1{
 
 p{
     color: #fff;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 15px;
 }
 
 .card{
-    width: 200px;
-    height: 230px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    background-position: center;
-    background-size: cover;
-    transition: transform 0.5s;
+    
+
 }
 
 .card1{
     background-image: url(https://transportemoderno.com.br/wp-content/uploads/2022/02/FH-menor.jpg);
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 60px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0px 31px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:350px;
+		margin-top:20px;
 }
 
 .card2{
-    background-image: url(https://img.freepik.com/fotos-premium/retrato-de-feliz-sorridente-caminhoneiro-de-meia-idade-parado-perto-de-seu-caminhao-e-segurando-os-polegares_308072-300.jpg);
+    background-image: url(https://www.examepelobem.com.br/fotos/images/caminhoneiro-.jpg);
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 60px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0px 70px;
+    justify-content: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    position:absolute;
+		left:50%;
+		top:45%;
+		margin-left:34px;
+		margin-top:-300px;
 }
 
 .card3{
     background-image: url(https://st2.depositphotos.com/2959013/12459/i/450/depositphotos_124597168-stock-photo-i-look-forward-to-work.jpg);
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 60px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0px 31px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    position:absolute;
+    left:50%;
+    top:1vh;
+    margin-left:350px;
+    margin-top:113px;
 }
 
 .card4{
     background-image: url(https://media.istockphoto.com/id/946210052/pt/foto/caravan-or-convoy-of-trucks-on-highway.jpg?s=612x612&w=0&k=20&c=O7GAlovViTQCrzUTYAbGft0CeZlUD7LJkniLeWJOyAQ=);
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 60px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0px 31px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    left:50%;
+		top:50%;
+		margin-left:35px;
+		margin-top:279px;
 }
 
 .card:hover{
-    transform: translateY(-10px);
+    transform: translateY(-8px);
 }
 
 h5{
-    color:#fff;
-    text-shadow: 0 0 5px #999;
+    color:#17089c;
+    text-shadow: 0 0 5px #ffffff;
 }
 
 .card p{
-    text-shadow: 0 0 5px #000;
-    font-size: 8px;
+    text-shadow: 0 0 5px #000000;
+    font-size: 16px;
 }
+
+.jeff{
+    display: inline;
+    width: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, rgb(38, 76, 145) 100%,rgb(0, 0, 0) 50%);
+}
+
+h1{
+    display: inline;
+    width: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 100%,rgb(0, 0, 0) 50%);
+}
+
